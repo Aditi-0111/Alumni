@@ -1,0 +1,100 @@
+export const alumniPosts = [
+  {
+    id: 1,
+    name: "Rahul Sharma",
+    batch: 2021,
+    company: "Google",
+    role: "Software Engineer",
+    location: "Bengaluru",
+    domain: "AI / ML",
+    experience: "3 Years",
+    verified: true,
+    hiring: true,
+    time: "2 hours ago",
+    tags: ["Hiring", "Referral", "AI/ML"],
+    post:
+      "Google India is hiring Software Engineers for multiple teams. Students interested in referrals are welcome to connect with me.",
+    avatar: "R",
+    jobType: "Internship",
+    salary: "₹12 LPA",
+    applyLink: "#",
+    deadline: "31 Aug 2026",
+    saved: false,
+
+    likes: 128,
+    shares: 16,
+    comments: [
+      {
+        id: 1,
+        user: "Ananya",
+        text: "Interested! I've sent a connection request.",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    name: "Priya Nair",
+    batch: 2020,
+    company: "Microsoft",
+    role: "Product Manager",
+    location: "Hyderabad",
+    domain: "Product",
+    experience: "4 Years",
+    verified: true,
+    hiring: false,
+    time: "Yesterday",
+    tags: ["Resume", "Mentorship"],
+    post:
+      "Conducting free resume reviews this weekend for final year students.",
+    avatar: "P",
+    jobType: "Full Time",
+    salary: "₹24 LPA",
+    applyLink: "#",
+    deadline: "15 Sep 2026",
+    saved: false,
+
+    likes: 84,
+    shares: 7,
+    comments: [
+      {
+        id: 1,
+        user: "Rohan",
+        text: "Thank you for doing this!",
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    name: "Abbas Sharma",
+    batch: 2022,
+    company: "Google",
+    role: "AI Engineer",
+    location: "Bengaluru",
+    domain: "Artificial Intelligence",
+    experience: "2 Years",
+    verified: true,
+    hiring: true,
+    time: "3 days ago",
+    tags: ["AI", "Hiring", "Referral"],
+    post:
+      "Our AI team is looking for interns and full-time engineers. Feel free to connect for referrals.",
+    avatar: "A",
+    jobType: "Internship",
+    salary: "₹10 LPA",
+    applyLink: "#",
+    deadline: "31 Aug 2029",
+    saved: false,
+
+    likes: 212,
+    shares: 31,
+    comments: [
+      {
+        id: 1,
+        user: "Kiran",
+        text: "Applied successfully!",
+      },
+    ],
+  },
+];
