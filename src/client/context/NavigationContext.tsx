@@ -9,7 +9,8 @@ export type Page =
   | "chat"
   | "notifications"
   | "profile"
-  | "alumniProfile";
+  | "alumniProfile"
+  | "network";
 
 interface NavigationContextType {
   currentPage: Page;

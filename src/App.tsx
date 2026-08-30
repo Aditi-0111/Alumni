@@ -10,6 +10,7 @@ import AlumniProfilePage from "./client/pages/AlumniProfilePage";
 import ChatPage from "./client/pages/ChatPage";
 import NotificationPage from "./client/pages/NotificationPage";
 import ProfilePage from "./client/pages/ProfilePage";
+import NetworkPage from "./client/pages/NetworkPage";
 
 function App() {
   const { currentPage } = useNavigation();
@@ -26,6 +27,7 @@ function App() {
         {currentPage === "chat" && <ChatPage />}
         {currentPage === "notifications" && <NotificationPage />}
         {currentPage === "profile" && <ProfilePage />}
+        {currentPage === "network" && <NetworkPage />}
       </main>
 
       <BottomNav />

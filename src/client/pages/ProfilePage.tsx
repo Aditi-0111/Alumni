@@ -1,4 +1,6 @@
 import StudentCard from "../components/home/StudentCard";
+import SavedAlumniList from "../components/profile/SavedAlumniList";
+import SavedOpportunitiesList from "../components/profile/SavedOpportunitiesList";
 
 export default function ProfilePage() {
   return (
@@ -99,6 +101,12 @@ export default function ProfilePage() {
           ))}
         </div>
       </div>
+
+      {/* Saved Alumni */}
+      <SavedAlumniList />
+
+      {/* Saved Opportunities */}
+      <SavedOpportunitiesList />
 
     </div>
   );

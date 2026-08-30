@@ -7,6 +7,7 @@ import {
   MessageCircle,
   Bell,
   User,
+  Network,
 } from "lucide-react";
 
 import {
@@ -33,6 +34,11 @@ const items: {
     icon: Users,
     name: "Alumni",
     page: "alumni",
+  },
+  {
+    icon: Network,
+    name: "Network",
+    page: "network",
   },
   {
     icon: MessageCircle,

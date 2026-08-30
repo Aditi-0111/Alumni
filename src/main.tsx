@@ -5,12 +5,15 @@ import App from "./App";
 
 import { NavigationProvider } from "./client/context/NavigationContext";
 import { NetworkProvider } from "./client/context/NetworkContext";
+import { EndorsementProvider } from "./client/context/EndorsementContext";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <NetworkProvider>
       <NavigationProvider>
-        <App />
+        <EndorsementProvider>
+          <App />
+        </EndorsementProvider>
       </NavigationProvider>
     </NetworkProvider>
   </StrictMode>

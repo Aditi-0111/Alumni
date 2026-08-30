@@ -10,7 +10,7 @@ export default function StudentCard() {
   const interests = ["AI / ML", "Web Development", "Cyber Security"];
 
   return (
-    <div className="sticky top-28 space-y-5">
+    <div className="space-y-5">
 
       {/* Profile Card */}
       <div className="overflow-hidden rounded-3xl border border-[#DDD4C7] bg-white shadow-sm">
